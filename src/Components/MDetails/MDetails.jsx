@@ -10,7 +10,7 @@ export const MDetails = () => {
         </div>
         <div className="box-container">
                     <div className="box">
-                        
+                        <div><img src="./Assets/Images/sunny-day.png" alt="" srcset="" /></div>
                         <h1>Monday</h1>
                         <form className="form">
                             <div className="form-group">
