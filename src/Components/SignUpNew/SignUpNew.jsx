@@ -18,22 +18,22 @@ export const SignUpNew = () => {
             
 
           <div className="input-group">
-            <label htmlFor="firstName">First Name</label>
+            <label htmlFor="firstName" className='po'>First Name</label>
             <input type="text" id="firstName" placeholder="Enter your first name" />
           </div>
 
           <div className="input-group">
-            <label htmlFor="lastName">Last Name</label>
+            <label htmlFor="lastName" className='po'>Last Name</label>
             <input type="text" id="lastName" placeholder="Enter your last name" />
           </div>
 
           <div className="input-group">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email" className='po'>Email</label>
             <input type="email" id="email" placeholder="Enter your email" />
           </div>
 
           <div className="input-group">
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password" className='po'>Password</label>
             <input type="password" id="password" placeholder="Enter your password" />
           </div>
 
