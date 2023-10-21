@@ -88,7 +88,7 @@ export const Detail = () => {
                     </div>
                 </div>
                 <div>
-                    <Link to="/moredetails">
+                    <Link to="MDetails">
                         <button className='seem'>See more</button>
                     </Link>
                 </div>
