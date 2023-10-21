@@ -22,7 +22,7 @@ export const Detail = () => {
                     />
                     <button onClick={handleSearch} className='search'>Search</button>
                 </div>
-                <div className="box-container">
+                <div className="box-container-D">
                     <div className="box">
                         <h1>Today</h1>
                         <form className="form">
@@ -88,9 +88,10 @@ export const Detail = () => {
                     </div>
                 </div>
                 <div>
-                    <Link to="MDetails">
-                        <button className='seem'>See more</button>
-                    </Link>
+                <Link to="/MDetails">
+                    <button type="submit"  className='seem'>See more</button>
+                </Link>
+                    
                 </div>
             </div>
         </div>
